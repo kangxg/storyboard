@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="s62-6Y-Swf">
+    <device id="ipad10_5" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--登录-->
+        <scene sceneID="I2h-Gj-byp">
+            <objects>
+                <viewController title="登录" id="IrY-54-2if" customClass="LogViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bcR-JN-yvt">
+                        <rect key="frame" x="0.0" y="0.0" width="1112" height="834"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="用户名：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eeb-Yk-K1a">
+                                <rect key="frame" x="112" y="135.5" width="70" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="密码：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4bb-U5-TBP">
+                                <rect key="frame" x="112" y="181" width="70" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="当当" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CIW-L1-LUf">
+                                <rect key="frame" x="232" y="126" width="780" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AFN-6n-eyR">
+                                <rect key="frame" x="146" y="320" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="登录"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gxP-Bi-BGC">
+                                <rect key="frame" x="361" y="320" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="注册"/>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="窘地" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DNt-OC-bt3">
+                                <rect key="frame" x="232" y="176" width="780" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Eeb-Yk-K1a" firstAttribute="leading" secondItem="4bb-U5-TBP" secondAttribute="trailing" constant="-70" id="2Jr-el-etd"/>
+                            <constraint firstItem="ejC-dV-MhU" firstAttribute="trailing" secondItem="CIW-L1-LUf" secondAttribute="trailing" constant="100" id="4dF-iu-qeq"/>
+                            <constraint firstItem="ejC-dV-MhU" firstAttribute="top" secondItem="Eeb-Yk-K1a" secondAttribute="bottom" constant="-92" id="7GX-zq-u8r"/>
+                            <constraint firstItem="CIW-L1-LUf" firstAttribute="leading" secondItem="Eeb-Yk-K1a" secondAttribute="trailing" constant="50" id="IkA-QR-smV"/>
+                            <constraint firstItem="DNt-OC-bt3" firstAttribute="leading" secondItem="4bb-U5-TBP" secondAttribute="trailing" constant="50" id="Npa-WU-jpj"/>
+                            <constraint firstItem="CIW-L1-LUf" firstAttribute="top" secondItem="ejC-dV-MhU" secondAttribute="top" constant="62" id="Oed-zR-k6Q"/>
+                            <constraint firstItem="ejC-dV-MhU" firstAttribute="trailing" secondItem="DNt-OC-bt3" secondAttribute="trailing" constant="100" id="UFN-te-SnZ"/>
+                            <constraint firstItem="DNt-OC-bt3" firstAttribute="top" secondItem="CIW-L1-LUf" secondAttribute="bottom" constant="20" id="WCP-lc-RLs"/>
+                            <constraint firstItem="4bb-U5-TBP" firstAttribute="top" secondItem="Eeb-Yk-K1a" secondAttribute="bottom" constant="25" id="Y1v-5x-tdk"/>
+                            <constraint firstItem="ejC-dV-MhU" firstAttribute="leading" secondItem="Eeb-Yk-K1a" secondAttribute="trailing" constant="-182" id="rdM-FP-Dt1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ejC-dV-MhU"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="frK-Ku-RNc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aYV-Ip-FuW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-223.92086330935251" y="47.482014388489212"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="8wi-Bm-vQA">
+            <objects>
+                <navigationController storyboardIdentifier="MNavigationController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="s62-6Y-Swf" customClass="MNavigationController" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="uDf-g3-Rlj">
+                        <rect key="frame" x="0.0" y="20" width="1112" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="IrY-54-2if" kind="relationship" relationship="rootViewController" id="rTY-CE-7tH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lYp-oe-rZL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1178" y="49"/>
+        </scene>
+    </scenes>
+</document>

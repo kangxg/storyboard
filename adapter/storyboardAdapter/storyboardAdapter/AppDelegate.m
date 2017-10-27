@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "MNavigationController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,22 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+ 
+  
+     NSString *deviceType = [UIDevice currentDevice].model;
+
+    
+   if([deviceType isEqualToString:@"iPad"]) {
+        
+        //iPad
+       UIStoryboard  * storyBoard = [UIStoryboard storyboardWithName:@"Main_iPad" bundle:nil];
+       UINavigationController *  nav = [storyBoard instantiateViewControllerWithIdentifier:@"MNavigationController"];
+        
+    }
+    else
+    {
+        
+    }
     return YES;
 }
 
