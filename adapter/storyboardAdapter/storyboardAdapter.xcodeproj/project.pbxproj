@@ -15,6 +15,7 @@
 		400767B21F906974008A2C4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 400767B11F906974008A2C4D /* main.m */; };
 		400767BC1F906974008A2C4D /* storyboardAdapterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 400767BB1F906974008A2C4D /* storyboardAdapterTests.m */; };
 		400767C71F906974008A2C4D /* storyboardAdapterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 400767C61F906974008A2C4D /* storyboardAdapterUITests.m */; };
+		40C2D0EC1FAFF701007C743D /* guideVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 40C2D0EB1FAFF701007C743D /* guideVideo.mp4 */; };
 		40CCA1B81F9DED14000599B4 /* LogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CCA1B71F9DED14000599B4 /* LogViewController.m */; };
 		40CCA1BA1F9DEE70000599B4 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40CCA1B91F9DEE70000599B4 /* Main_iPad.storyboard */; };
 		40CCA1BD1F9DF295000599B4 /* MNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CCA1BC1F9DF295000599B4 /* MNavigationController.m */; };
@@ -78,6 +79,7 @@
 		400767C21F906974008A2C4D /* storyboardAdapterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = storyboardAdapterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		400767C61F906974008A2C4D /* storyboardAdapterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = storyboardAdapterUITests.m; sourceTree = "<group>"; };
 		400767C81F906974008A2C4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40C2D0EB1FAFF701007C743D /* guideVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = guideVideo.mp4; sourceTree = "<group>"; };
 		40CCA1B61F9DED14000599B4 /* LogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogViewController.h; sourceTree = "<group>"; };
 		40CCA1B71F9DED14000599B4 /* LogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogViewController.m; sourceTree = "<group>"; };
 		40CCA1B91F9DEE70000599B4 /* Main_iPad.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				40CCA1EE1F9F2305000599B4 /* banner@2x.png */,
+				40C2D0EB1FAFF701007C743D /* guideVideo.mp4 */,
 				40CCA1EA1F9F2305000599B4 /* banner@3x.png */,
 				40CCA1E71F9F2305000599B4 /* banner02@2x.png */,
 				40CCA1F31F9F2306000599B4 /* banner02@3x.png */,
@@ -346,6 +349,7 @@
 				40CCA2021F9F2307000599B4 /* banner@3x.png in Resources */,
 				400767AF1F906974008A2C4D /* LaunchScreen.storyboard in Resources */,
 				40CCA20B1F9F2307000599B4 /* banner02@3x.png in Resources */,
+				40C2D0EC1FAFF701007C743D /* guideVideo.mp4 in Resources */,
 				40CCA2051F9F2307000599B4 /* rt_0@2x.png in Resources */,
 				40CCA20E1F9F2307000599B4 /* rt_1@2x.png in Resources */,
 				40CCA2121F9F2307000599B4 /* rt_7@3x.png in Resources */,
